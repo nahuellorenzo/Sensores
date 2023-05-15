@@ -1,0 +1,23 @@
+[33mcommit 56700665266cc422837d6e9ce82d0be537a1886a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nahuel Lorenzo <nahuelorenzo@gmail.com>
+Date:   Thu May 11 14:24:19 2023 -0300
+
+    modifico el layout
+
+[33mcommit ad30ff2e8a821e9e6fe4ccd6cc2b6f98c8affd83[m
+Author: Nahuel Lorenzo <nahuelorenzo@gmail.com>
+Date:   Thu May 11 13:38:28 2023 -0300
+
+    agrego acceso a la camara y muestro la foto en pantalla
+
+[33mcommit cd227f5759ed6ab38e5bcbed4d27d10690ad76b1[m
+Author: Nahuel Lorenzo <nahuelorenzo@gmail.com>
+Date:   Thu May 11 13:05:02 2023 -0300
+
+    agrego vibracion
+
+[33mcommit ef32aed2adab7e21ef27d982a63cbfba5eaf867e[m
+Author: Nahuel Lorenzo <nahuelorenzo@gmail.com>
+Date:   Thu May 11 13:00:49 2023 -0300
+
+    first commit
