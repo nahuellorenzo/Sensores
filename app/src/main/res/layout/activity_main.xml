@@ -4,19 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FED4E7">
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:background="@drawable/button_rounded_background"
         android:text="Vibrador"
+        android:textColor="#edc9ff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintHorizontal_bias="0.342"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
+        app:layout_constraintVertical_bias="0.35" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -32,18 +35,23 @@
         app:layout_constraintVertical_bias="0.491" />
 
     <Button
+
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
         android:layout_marginStart="66dp"
         android:layout_marginTop="180dp"
         android:layout_marginEnd="118dp"
         android:layout_marginBottom="170dp"
+        android:background="@drawable/button_rounded_background"
         android:text="Flash"
+        android:textColor="#edc9ff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.483" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -59,17 +67,19 @@
 
     <Button
         android:id="@+id/irACamara"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="47dp"
         android:layout_marginStart="307dp"
         android:layout_marginEnd="16dp"
-        android:text="Camara"
+        android:background="@drawable/button_rounded_background"
+        android:text="Ir a Camara"
+        android:textColor="#edc9ff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.942" />
 
     <TextView
         android:id="@+id/textView"
@@ -79,15 +89,15 @@
         android:layout_marginEnd="143dp"
         android:text="Prueba de Sensores"
         android:textAlignment="center"
+        android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#64A82A"
+        android:textColor="#6E5F78"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.134" />
+        app:layout_constraintVertical_bias="0.127" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

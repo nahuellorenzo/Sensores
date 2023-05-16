@@ -49,6 +49,13 @@ class CameraActivity: ComponentActivity() {
                 openCamera()
             }
         }
+
+        var buttonMain = findViewById<Button>(R.id.irAMain)
+        buttonMain.setOnClickListener{
+            val intent = Intent(this, MainActivity:: class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun openCamera() {
